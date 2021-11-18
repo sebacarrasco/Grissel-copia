@@ -1,0 +1,10 @@
+.div-admin-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    margin-left: 10%;
+    row-gap: 5px;
+    column-gap: 5px;
+  }
+body{
+  background-color: #1A1C1B !important;
+}

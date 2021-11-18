@@ -1,0 +1,54 @@
+.list-group-item {
+    background-color: transparent;
+    font-size: large;
+    border-radius: 0;
+    color: #fff;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+    
+.user .card{
+    background-color: transparent;
+}
+
+.user .card-img{
+    width: 40%;
+    margin-bottom: 1rem;
+}
+
+.user h1{
+    color: #fff;
+}
+
+.user h3{
+    color: #fff;
+}
+
+.user h6{
+    color: #fff;
+}
+
+
+.user{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.options{
+    margin-top: 20%;
+}
+
+.logout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.down{
+    margin-top: 5rem;                                                 
+}
+

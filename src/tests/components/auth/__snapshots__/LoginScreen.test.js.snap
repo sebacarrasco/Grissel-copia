@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for >LoginScreen /> should match the snapshot 1`] = `
+<div>
+  <h1>
+    Login screen
+  </h1>
+</div>
+`;

@@ -1,0 +1,201 @@
+/* For ProductCard and ProductList */
+.horizontal-list {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.vertical-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rounded-border {
+    border-radius: 30px;
+}
+
+.horizontal-card {
+    display: inline-block;
+    width: 55%;
+}
+
+.vertical-card {
+    display: inline-block;
+    width: 100%;
+}
+
+.background-gray {
+    background-color: #EEEEEE;
+}
+
+.horizontal-margined-button {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.vertical-margined-button {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.green-button {
+    background-color: #B0ECC4;
+    border-color: #B0ECC4;
+    color: black;
+}
+
+.green-button:hover {
+    background-color: #81dfa0 !important;
+    border-color: #B0ECC4 !important;  
+    color: black !important;
+}
+
+.green-button:active {
+    background-color: #66dd8e !important;
+    border-color: #B0ECC4 !important;
+    color: black !important;
+    box-shadow: none !important;
+}
+
+.green-button:visited {
+    background-color: #B0ECC4 !important;
+    border-color: #B0ECC4 !important;
+    color: black !important;
+}
+
+.green-button:focus {
+    background-color: #B0ECC4 !important;
+    border-color: #B0ECC4 !important;
+    box-shadow: none !important;
+}
+
+.green-button:disabled {
+    opacity: 0.5 !important;
+}
+
+/* For ProductCartCards */
+.red-button {
+    background-color: #f79f9f;
+    border-color: #f79f9f;
+    color: black;
+}
+
+.red-button:hover {
+    background-color: #f38b8b !important;
+    border-color: #f38b8b !important;  
+    color: black !important;
+}
+
+.red-button:active {
+    background-color: #f17373 !important;
+    border-color: #f17373 !important;
+    color: black !important;
+    box-shadow: none !important;
+}
+
+.red-button:visited {
+    background-color: #f79f9f !important;
+    border-color: #f79f9f !important;
+    color: black !important;
+}
+
+.red-button:focus {
+    box-shadow: none !important;
+}
+
+.red-button:disabled {
+    opacity: 0.5 !important;
+}
+
+.font-small {
+    font-size: small;
+}
+
+.row-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.picture-column {
+    flex: 25%;
+    max-width: 25%;
+}
+
+.text-column {
+    flex: 50%;
+    max-width: 50%;
+    margin-top: 7%;
+}
+
+.buttons-column {
+    flex: 15%;
+    margin-top: 7%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-action {
+    justify-content: center;
+}
+
+.image-product-card {
+    height: 100px;
+}
+
+.down{
+    margin-top: 5rem;                                                 
+}
+
+.grey-button{
+    background-color: #D3D3D3;
+    border-color: #D3D3D3;
+    color: black;
+
+}
+
+.light-grey-button{
+    background-color: #E5E5E5;
+    border-color: #E5E5E5;
+    color: black;
+    pointer-events: none;
+}
+
+.grey-button:hover{
+    background-color: #B7B7B7;
+    border-color: #B7B7B7;
+    color: black;
+}
+
+.grey-button:active{
+    background-color: #B7B7B7;
+    border-color: #B7B7B7;
+    color: black;
+    box-shadow: none !important;
+}
+
+.grey-button:visited{
+    background-color: #B7B7B7;
+    border-color: #B7B7B7;
+    color: black;
+}
+
+.grey-button:focus{
+    background-color: #B7B7B7;
+    border-color: #B7B7B7;
+    color: black;
+    box-shadow: none !important;
+}
+
+.together{
+    width: 90%;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
