@@ -52,7 +52,7 @@ export const DashboardScreen = () => {
                  <Row style={{marginTop:'1.5rem'}}>
                     <Col md="1">
                     </Col>
-                    <Col md="5">
+                    <Col md="7">
                         <Card>
                             <Card.Header>
                             <Card.Title as="h4" style={{color:'black'}}>Porcentaje de ingresos por categoría</Card.Title>
@@ -62,7 +62,7 @@ export const DashboardScreen = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col md="5">
+                    <Col md="3">
                     <Card>
                             <Card.Header>
                             <Card.Title as="h4" style={{color:'black'}}>Ingresos totales</Card.Title>
@@ -70,7 +70,7 @@ export const DashboardScreen = () => {
                             <Card.Body>
 
                                  <TotalIncomeInfo />
-                               
+
                             </Card.Body>
                         </Card>
                     </Col>

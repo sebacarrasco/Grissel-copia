@@ -30,10 +30,10 @@ export const TotalIncomeInfo = () => {
                         <h2 style={{color:'black'}}>{ formatter.format(totalIncome).replaceAll(",", ".") }</h2>
                     </Row>
                     <Row>
-                        <Col><h3 style={{color:'black'}}>Ventas Online: { onlinePercent * 100 }%</h3></Col>
-                        <Col><h3 style={{color:'black'}}>Ventas en local: { localPercent * 100 }%</h3></Col>
+                        <Col><p style={{color:'black'}}>Ventas Online: { onlinePercent * 100 }%</p></Col>
+                        <Col><p style={{color:'black'}}>Ventas en local: { localPercent * 100 }%</p></Col>
                     </Row>
-                    <Row style={{marginTop:'16.5rem'}}> 
+                    <Row style={{marginTop:'12rem'}}> 
                     </Row>
                 </Col>
             </Row>
